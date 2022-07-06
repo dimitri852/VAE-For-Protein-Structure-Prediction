@@ -19,3 +19,14 @@
 In a polypeptide chain, each amino acid has two main chain bonds that can rotate around alpha carbon (Ca) defining the Dihedral (or torsion) angles.
 The simple principle that two atoms can not occupy the same space, defines a great deal of protein molecular structure.
 In fact, most combinations of **φ&deg;** and **ψ&deg;** are impossible due to those steric effects.
+
+## Variational Autoencoder architectures and training precedures
+
+We aim to model amino acid dihedral angles (𝜑, 𝜓). More specifically, we touch an “artistic” model that has its roots in Bayesian inference and graphical models and provides an interesting framework for generating new data, similar to the dataset that it was trained on.
+Deploying Pyro, a Deep Probabilistic Programming Language, we approache the problem with two
+Variational Autoencoder (VAE) architectures.
+
+<div align="center">
+  <a href="https://pyro.ai/examples/vae.html">
+  <img width="520px" height="230px" src="https://user-images.githubusercontent.com/34074691/177275727-958533de-9039-44a4-9cd5-ac9f9fd5d736.png"></a>
+</div>
