@@ -20,7 +20,7 @@ In a polypeptide chain, each amino acid has two main chain bonds that can rotate
 The simple principle that two atoms can not occupy the same space, defines a great deal of protein molecular structure.
 In fact, most combinations of **φ&deg;** and **ψ&deg;** are impossible due to those steric effects.
 
-## Variational Autoencoder architectures and training precedures
+## Variational Autoencoder architectures and training procedures
 
 We aim to model amino acid dihedral angles (𝜑, 𝜓). More specifically, we touch an “artistic” model that has its roots in Bayesian inference and graphical models and provides an interesting framework for generating new data, similar to the dataset that it was trained on.
 Deploying Pyro, a Deep Probabilistic Programming Language, we approache the problem with two Variational Autoencoder (VAE) architectures.
