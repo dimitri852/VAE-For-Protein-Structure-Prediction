@@ -23,10 +23,14 @@ In fact, most combinations of **φ&deg;** and **ψ&deg;** are impossible due to 
 ## Variational Autoencoder architectures and training precedures
 
 We aim to model amino acid dihedral angles (𝜑, 𝜓). More specifically, we touch an “artistic” model that has its roots in Bayesian inference and graphical models and provides an interesting framework for generating new data, similar to the dataset that it was trained on.
-Deploying Pyro, a Deep Probabilistic Programming Language, we approache the problem with two
-Variational Autoencoder (VAE) architectures.
+Deploying Pyro, a Deep Probabilistic Programming Language, we approache the problem with two Variational Autoencoder (VAE) architectures.
 
 <div align="center">
   <a href="https://pyro.ai/examples/vae.html">
   <img width="520px" height="230px" src="https://user-images.githubusercontent.com/34074691/177275727-958533de-9039-44a4-9cd5-ac9f9fd5d736.png"></a>
 </div>
+
+This repository contains the code only for the Conditional Variational Autoencoder (CVAE), as it is a more advanced, more useful and probably more interesting version of the simple VAE.
+
+Two different training procedures were followed trying to figure out if mixing deterministic with probabilistic training could end up in more rich results.
+The mix training with annealed Kullback–Leibler divergence showed improved results.
