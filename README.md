@@ -23,7 +23,7 @@ In fact, most combinations of **φ&deg;** and **ψ&deg;** are impossible due to 
 ## Variational Autoencoder architectures and training procedures
 
 We aim to model amino acid dihedral angles (𝜑, 𝜓). More specifically, we touch an “artistic” model that has its roots in Bayesian inference and graphical models and provides an interesting framework for generating new data, similar to the dataset that it was trained on.
-Deploying Pyro, a Deep Probabilistic Programming Language, we approache the problem with two Variational Autoencoder (VAE) architectures.
+Deploying Pyro, a Deep Probabilistic Programming Language, we approach the problem with two Variational Autoencoder (VAE) architectures.
 
 <div align="center">
   <a href="https://pyro.ai/examples/vae.html">
@@ -34,3 +34,32 @@ This repository contains the code only for the Conditional Variational Autoencod
 
 Two different training procedures were followed trying to figure out if mixing deterministic with probabilistic training could end up in more rich results.
 The mix training with annealed Kullback–Leibler divergence showed improved results.
+
+
+## Evaluation with Ramachandran plots
+
+<div align="center">
+  <a href="https://en.wikipedia.org/wiki/Ramachandran_plot">
+  <img width="400px" height="360px" src="https://user-images.githubusercontent.com/34074691/177722528-8aeb8f88-e612-42c2-ae06-38f585db6506.jpg"></a>
+</div>
+
+### Real angles
+Real amino amino acid dihedral angles are plotted in Ramachandran plots for side by side comparison purposes with the generated angles.                                                                                                                             
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/34074691/177670309-5eeb67e2-4652-45ee-a43a-d56c74b3e908.png" width="330" /> 
+  <img src="https://user-images.githubusercontent.com/34074691/177670313-86d8ac39-8a8b-4422-aa0c-e1ea8a6f739b.png" width="330" />
+  <img src="https://user-images.githubusercontent.com/34074691/177670312-0b06782c-3593-401d-8cfb-f6c3d4a501b0.png" width="330" />
+</p>
+                                                                                                                              
+                                                                                                                              
+## Results - Generated angles   
+                                                                                                                              
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/34074691/177724492-44caa23e-f35e-424a-95fb-2b2f9c72c6c6.png"  width="330" /> 
+  <img src="https://user-images.githubusercontent.com/34074691/177718951-6ead9091-3532-47e3-a428-7088ff5791bb.png" width="330" />
+  <img src="https://user-images.githubusercontent.com/34074691/177718953-d517f958-5496-46d7-a690-09f8e1e068c6.png" width="330" />
+</p>                                                                                                                         
+
+
+
+
