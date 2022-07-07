@@ -46,18 +46,18 @@ The mix training with annealed Kullback–Leibler divergence showed improved res
 ### Real angles
 Real amino amino acid dihedral angles are plotted in Ramachandran plots for side by side comparison purposes with the generated angles.                                                                                                                             
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/34074691/177670309-5eeb67e2-4652-45ee-a43a-d56c74b3e908.png" width="330" /> 
-  <img src="https://user-images.githubusercontent.com/34074691/177670313-86d8ac39-8a8b-4422-aa0c-e1ea8a6f739b.png" width="330" />
-  <img src="https://user-images.githubusercontent.com/34074691/177670312-0b06782c-3593-401d-8cfb-f6c3d4a501b0.png" width="330" />
+  <img src="https://user-images.githubusercontent.com/34074691/177670309-5eeb67e2-4652-45ee-a43a-d56c74b3e908.png" width="315" /> 
+  <img src="https://user-images.githubusercontent.com/34074691/177670313-86d8ac39-8a8b-4422-aa0c-e1ea8a6f739b.png" width="315" />
+  <img src="https://user-images.githubusercontent.com/34074691/177670312-0b06782c-3593-401d-8cfb-f6c3d4a501b0.png" width="315" />
 </p>
                                                                                                                               
                                                                                                                               
 ## Results - Generated angles   
                                                                                                                               
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/34074691/177724492-44caa23e-f35e-424a-95fb-2b2f9c72c6c6.png"  width="330" /> 
-  <img src="https://user-images.githubusercontent.com/34074691/177718951-6ead9091-3532-47e3-a428-7088ff5791bb.png" width="330" />
-  <img src="https://user-images.githubusercontent.com/34074691/177718953-d517f958-5496-46d7-a690-09f8e1e068c6.png" width="330" />
+  <img src="https://user-images.githubusercontent.com/34074691/177724492-44caa23e-f35e-424a-95fb-2b2f9c72c6c6.png"  width="315" /> 
+  <img src="https://user-images.githubusercontent.com/34074691/177718951-6ead9091-3532-47e3-a428-7088ff5791bb.png" width="315" />
+  <img src="https://user-images.githubusercontent.com/34074691/177718953-d517f958-5496-46d7-a690-09f8e1e068c6.png" width="315" />
 </p>                                                                                                                         
 
 
